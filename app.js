@@ -12,3 +12,5 @@ app.get("/about", function(req, res){
 });
 
 app.listen(process.env.PORT, process.env.IP);
+
+console.log('todo list RESTful API server started on: ' + process.env.PORT);
